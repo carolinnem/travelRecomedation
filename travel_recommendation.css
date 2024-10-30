@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #6c5275;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #D2BDD8;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo span {
+    padding: 5px;
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+body {
+    text-align: center;
+    font-family: Calibri, sans-serif;
+    color: #6c5275;
+    background: url(images/background.jpg);
+    background-color: #cf9ecd;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+p {
+    padding: 10px;
+    font-size: 18px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 200px;
+    padding: 5px;
+}
+
+button {
+    padding: 7px 15px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+    cursor: pointer;
+}
+
+.container {
+    background-color: rgba(245, 245, 245, 0.8);
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.container img {
+    max-width: 800px;
+}
+
+#home-image {
+    max-height: 400px;
+    width: 800px;
+    object-fit: scale-down;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+#home-image-div {
+    display: block;
+    align-items: center;
+    padding: 10px;
+}
+
+.social-icons {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(245, 245, 245, 0.2);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.meet-our-team {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.team-member {
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    border: #6c5275;
+    border-width: 5px;
+    border-radius: 5px;
+    display: block;
+    unicode-bidi: isolate;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.team-member:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.team-member div {
+    margin: 0px;
+    padding: 0px;
+}
+
+.team-member-title {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.team-member-name {
+    font-size: 16px;
+}
+
+.team-member img {
+    height: 100px;
+    max-width: 100px;
+    object-fit: cover;
+    border: #6c5275;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+.team-member p {
+    font-size: 14px;
+}
+
+
+.result {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.result-item {
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    border: #6c5275;
+    border-width: 5px;
+    border-radius: 5px;
+    display: block;
+    unicode-bidi: isolate;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.result-item:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.result-item div {
+    margin: 0px;
+    padding: 5px;
+}
+
+.result-item-name {
+    font-size: 24px;
+}
+
+.result-item img {
+    max-height: 200px;
+    width: 400px;
+    object-fit: cover;
+    border: #6c5275;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+.result-item p {
+    font-size: 18px;
+}
+
+#contactForm {
+    margin: 0 auto;
+    align-items: center;
+}
+
+#contactForm label {
+    width: 100%;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 40%;
+    margin-bottom: 15px;
+    padding: 8px;
+}

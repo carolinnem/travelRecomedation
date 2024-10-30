@@ -1,0 +1,120 @@
+<!-- In this final project, you will create a webpage layout for a travel recommendation platform.
+
+This website will include:
+
+A navigation bar with links to the home page, "About Us" and "Contact Us" pages
+A search bar allowing users to input destinations or keywords to search for recommendations
+A content section that showcases an enticing background image, social media links, and a headline emphasizing exploration and destination discovery
+A brief description promoting cultural exploration
+A "Book Now" button
+You will be able to implement the knowledge and skills you have gained from working on the practice project to help you handle dynamic functionalities, like search recommendations and result presentation. -->
+
+<!-- 
+There are 20 points available for nine tasks in this final project.
+
+GitHub repository public URL (1 point)
+
+Website contains a Home page, About Us page, and Contact Us page (3 points)
+
+Navigation bar (6 points)
+
+An introduction for the Home Page (1 point)
+
+About Us page elements (2 points)
+
+Contact Us page email form (1 point)
+
+Beach recommendation with two images (2 points)
+
+Temple recommendation with two images (2 points)
+
+Recommendation based on country with two images (2 points)
+
+Note: You need to provide the public link to your GitHub repository and the other link for the final project GitHub pages so the reviewer can use this link to view the project as a website.  Remember to include the URL prefix of "https://" or "http://" with your website URL. Not including these prefixes will cause your website submission to break and you will need to resubmit your assignment.   -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TravelJS - About Us</title>
+    <link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="./travel_recommendation.html" id="home">
+                <img src="images/logo.png" id="logo" height=40px alt="TravelJS">
+            </a>
+            <span>TravelJS</span>
+        </div>
+        <ul>
+            <li><input type="text" id="searchInput" placeholder="Enter a destination or keyword"> </li>
+            <li><button id='btnSearch' type="submit" onclick="search()">Search</button>
+            <li><a href="./travel_about_us.html" id="about">About Us</a></li>
+            <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>
+            </li>
+        </ul>
+    </nav>
+    <div class="social-icons">
+        <a href="#"><img src="images/instagram.png" id="logo" height=40px alt="Instagram"></a>
+        <a href="#"><img src="images/facebook.png" id="logo" height=40px alt="facebook"></i></a>
+        <a href="#"><img src="images/twitter.png" id="logo" height=40px alt="Twitter"></a>
+    </div>
+    <div class="container">
+        <h1>About Us</h1>
+       <p>At TravelJS, we are passionate about exploring the world and sharing the beauty of travel with others. Our mission is to inspire and empower travelers to embark on unforgettable journeys, uncovering unique destinations and rich cultural experiences.
+        <br><br>
+        Founded by a team of avid travelers, we understand that every trip is an opportunity for discovery and personal growth. Whether you’re a seasoned globetrotter or planning your first adventure, our platform offers carefully curated recommendations, insightful travel guides, and insider tips to help you make the most of your journey.
+        </p>
+       <h2>Meet Our Team</h2>
+       <h3>Our Passionate Explorers</h3>
+       <p>We believe that a great travel experience begins with a dedicated team of adventurers and storytellers. Each member of our team brings a unique perspective and a wealth of knowledge, ensuring that you receive the best travel recommendations and insights. Here’s a glimpse of the faces behind TravelJS:</p>
+       <div class="meet-our-team">
+         <div class="team-member">
+            <div>
+                <div class="team-member-name">Emily Johnson</div>
+                <div class="team-member-title">Founder & CEO</div>
+            </div>
+            <img src="images/emily_johnson.jpg" alt="Emily Johnson">
+            <p>
+                With a love for culture and exploration, Emily founded TravelJS to inspire others to discover the world. Her travels have taken her to over 50 countries, and she enjoys sharing tips and stories from her adventures.
+            </p>
+        </div>
+        <div class="team-member">
+            <div>
+                <div class="team-member-name">David Cohen</div>
+                <div class="team-member-title">Head of Content</div>
+            </div>
+            <img src="images/david_cohen.jpg" alt="David Cohen">
+            <p>
+                A passionate writer and travel enthusiast, David crafts engaging content that highlights the beauty of destinations. He loves diving into local cultures and finding hidden gems to recommend to fellow travelers.
+            </p>
+        </div>
+        <div class="team-member">
+            <div>
+                <div class="team-member-name">Sophia Martinez</div>
+                <div class="team-member-title">Social Media Manager</div>
+            </div>
+            <img src="images/sophia_martinez.jpg" alt="Sophia Martinez">
+            <p>
+                Sophia connects our community through social media, sharing stunning visuals and travel tips. Her infectious enthusiasm for travel inspires others to explore the world and engage with TravelJS.
+            </p>
+        </div>
+        <div class="team-member">
+            <div>
+                <div class="team-member-name">Liam Peterson</div>
+                <div class="team-member-title">Travel Consultant</div>
+            </div>
+            <img src="images/liam_peterson.jpg" alt="Liam Peterson">
+            <p>
+                With years of experience in the travel industry, Liam offers personalized recommendations and insights. He’s dedicated to helping travelers create unforgettable experiences tailored to their interests.
+            </p>
+        </div>
+       </div>
+    </div>
+    <script src="./travel_recommendation.js"></script>
+</body>
+
+</html>

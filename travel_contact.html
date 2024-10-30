@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>TravelJS - Travel Recommendations</title>
+    <title>TravelJS - Contact Us</title>
     <link rel="stylesheet" href="./travel_recommendation.css">
 </head>
 
@@ -29,25 +29,24 @@
         <a href="#"><img src="images/twitter.png" id="logo" height=40px alt="Twitter"></a>
     </div>
     <div class="container">
-        <div id="home-image-div"></div>
-            <h1> Explore. Discover. Experience.</h1>
-            <img src="images/home.jpg" alt="Home" id="home-image">
-            <p>We invite you to explore the world like never before. 
-                <br>Each destination is a doorway to new experiences, waiting for you to uncover its secrets.</p>
-        </div>
-    </div>
-
-    <div class="container">
-        <h2>Embark on a Journey of Discovery</h2>
-        <p>Immerse yourself in cultural exploration as you dive into local traditions, savor authentic cuisines, and
-            connect with communities around the globe. Our mission is to help you discover not just places, but the
-            stories and people that bring them to life. Let your adventures inspire and transform you with TravelJS!</p>
-        <button type="submit" onclick="booknow()">BOOK NOW</button>
-    </div>
-    <div class="container" id="results-container">
-        <div class="result" id="result">
-
-        </div>
+        <h1>Contact Us</h1>
+        <p>We’d love to hear from you! <br> Whether you have questions, need travel advice, or want to share your
+            experiences, our team is here to help.</p>
+        <form id="contactForm">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" onclick="thankyou()">Submit</button>
+        </form>
     </div>
     <script src="./travel_recommendation.js"></script>
 </body>
